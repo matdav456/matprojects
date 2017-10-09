@@ -1,0 +1,157 @@
+.hbox{
+background-color:red;
+height:100% !important;
+}
+.message{
+	
+	width: 30%;
+	}
+
+.hbox0 .sapMBtnInner{
+background-color:cyan;
+
+}
+/* #hb1{
+background-color:yellow;
+} */
+
+#tc{
+font-weight: bolder;
+font-size:1rem;
+background-color:white;
+}
+
+.sapMBar{
+box-shadow: inset 0 -0.0625rem rgba(209, 224, 238, 0);
+}
+
+.sapMIBar.sapMHeader-CTX {
+    color: rgba(102, 102, 102, 0);
+    background-color: rgba(239, 243, 249, 0);
+    filter: none;
+    background-image: none;
+}
+
+
+
+.text{
+      background-color: lightgrey;
+    width: 60px;
+    border: 5px solid green;
+    padding: 5px;
+	margin-top:5px;
+	margin-left: 15%;
+    	
+  font-weight:bolder;
+  font-size:2rem;
+}
+
+.text1{
+   width: 80px;
+   margin-top:5px;
+   margin-left: 15%;
+   font-size:1.5rem;
+}
+
+.sapMBtnInner{
+height: 3rem;
+min-width: 3rem;
+}
+
+
+
+.hbox1 .sapMBtnInner{ 
+background-color:blue;
+ 
+}
+
+
+
+.hbox2 .sapMBtnInner{
+background-color:green;
+
+}
+
+.hbox3 .sapMBtnInner{
+background-color:black;
+
+}
+
+.hbox4 .sapMBtnInner{
+background-color:red;
+
+}
+
+.hbox5 .sapMBtnInner{
+background-color:yellow;
+
+}
+
+.hbox6 .sapMBtnInner{
+background-color:orange;
+
+}
+
+.hbox7 .sapMBtnInner{
+background-color:CornflowerBlue;
+
+}
+
+.hbox8 .sapMBtnInner{
+background-color:DarkBlue;
+
+}
+
+.hbox9 .sapMBtnInner{
+background-color:DarkOliveGreen ;
+
+}
+
+.hbox10 .sapMBtnInner{
+background-color:DarkOrchid;
+
+}
+
+.hbx0.sapMFlexBoxBGTransparent{
+background-color:cyan;
+}
+
+.hbx1.sapMFlexBoxBGTransparent{
+background-color:blue;
+}
+
+.hbx2.sapMFlexBoxBGTransparent{
+background-color:green;
+}
+
+.hbx3.sapMFlexBoxBGTransparent{
+background-color:black;
+}
+
+.hbx4.sapMFlexBoxBGTransparent{
+background-color:red;
+}
+
+.hbx5.sapMFlexBoxBGTransparent{
+background-color:yellow;
+}
+
+.hbx6.sapMFlexBoxBGTransparent{
+background-color:orange;
+}
+
+.hbx7.sapMFlexBoxBGTransparent{
+background-color:CornflowerBlue;
+}
+
+.hbx8.sapMFlexBoxBGTransparent{
+background-color:DarkBlue;
+}
+
+.hbx9.sapMFlexBoxBGTransparent{
+background-color:DarkOliveGreen;
+}
+
+.hbx10.sapMFlexBoxBGTransparent{
+background-color:DarkOrchid;
+}

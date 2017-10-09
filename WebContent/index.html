@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+
+		<script src="resources/sap-ui-core.js"
+				id="sap-ui-bootstrap"
+				data-sap-ui-libs='sap.ui.commons,sap.ui.ux3,sap.ui.table,sap.m'
+				data-sap-ui-theme="sap_belize"
+				data-sap-ui-resourceroots='{"test_project": "test_project"}'
+				>
+		</script>
+		<!-- only load the mobile lib "sap.m" and the "sap_bluecrystal" theme -->
+          <link rel="stylesheet" href="css/index.css">
+		   <script>    
+  var c=0;
+var t;
+var timer_is_on=0;
+
+function timedCount()
+{
+document.getElementById('txt').innerHTML=c;
+c=c+1;
+t=setTimeout("timedCount()",1000);
+}
+
+function doTimer()
+{
+if (!timer_is_on)
+  {
+  timer_is_on=1;
+  timedCount();
+  }
+}
+
+function stopCount()
+{
+clearTimeout(t);
+timer_is_on=0;
+document.getElementById('txt').value=c;
+}
+
+function resetCount()
+{
+c=0
+document.getElementById('txt').value=c;
+}
+		
+		</script>
+		<script>
+		 var b = ["0","1"];
+				
+				var color = ["CYAN","BLUE","GREEN","BLACK","RED","YELLOW","ORANGE","CORNFLOWERBLUE","DARKBLUE","DARKOLIVEGREEN","DARKORCHID","BROWN",
+					"GOLD","GREY","KHAKI","LIME","PINK"];
+				//alert(b[1]);
+				//sap.ui.localResources(".test_project");
+				var app = new sap.m.App({initialPage:"idview1"});
+				var page = sap.ui.view({id:"idview1", viewName:"test_project.view", type:sap.ui.core.mvc.ViewType.JS});
+				app.addPage(page);
+				app.placeAt("content");
+			   
+		</script>
+
+	</head>
+	
+	<body class="sapUiBody" role="application">
+	
+  <form>
+  <div id="txt" class="text">0</div>
+<!--   <button class="text1" id = "btstart" type="button" onclick="doTimer()">Start</button> -->
+ 
+  </form>
+<div id="content"></div>
+ 
+
+
+
+		
+	</body>
+</html>
